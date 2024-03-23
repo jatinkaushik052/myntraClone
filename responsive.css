@@ -1,0 +1,40 @@
+@media (width <=600px) {
+    header{
+        top: 0;
+        left: 0;
+        position: fixed;
+        width: 100%;
+    }
+   .nav_bar {
+        display: none;
+    }
+    .search_bar{
+        display: none;
+    }
+    .footer_container{
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 601px) and (max-width: 768px){
+    .nav_bar {
+         display: none;
+     }
+     .search_bar{
+         display: none;
+     }
+     .footer_container{
+        flex-wrap: wrap;
+    }
+ }
+ @media(min-width: 769px) and (max-width: 992px) {
+    .nav_bar {
+         display: none;
+     }
+     .search_bar{
+         display: none;
+     }
+     .footer_container{
+        flex-wrap: wrap;
+    }
+ }
+ 
